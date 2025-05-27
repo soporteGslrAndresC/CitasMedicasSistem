@@ -36,7 +36,7 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="form group">
-                                    <label for="">CI</label> <b>*</b>
+                                    <label for="">Cedula de ciudadania</label> <b>*</b>
                                     <input type="text" value="{{old('ci')}}" name="ci" class="form-control" required>
                                     @error('ci')
                                     <small style="color:red">{{$message}}</small>

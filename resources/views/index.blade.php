@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Sistema de reserva de citas medicas</title>
@@ -47,8 +49,8 @@
     <div class="topbar d-flex align-items-center">
         <div class="container d-flex justify-content-center justify-content-md-between">
             <div class="contact-info d-flex align-items-center">
-                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-                <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">acampos5@estudiante.ibero.edu.co</a></i>
+                <i class="bi bi-phone d-flex align-items-center ms-4"><span>+57 310 31197 24</span></i>
             </div>
             <div class="social-links d-none d-md-flex align-items-center">
                 <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -65,19 +67,19 @@
             <a href="{{url('/')}}" class="logo d-flex align-items-center me-auto">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1 class="sitename">SIS MEDICAL</h1>
+                <h1 class="sitename">Sistema de Control Medico</h1>
             </a>
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="#hero" class="active">Home<br></a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#departments">Departments</a></li>
-                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#hero" class="active">Principal<br></a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#departments">Departamentos</a></li>
+                    <li><a href="#doctors">doctores</a></li>
                     <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">Dropdown 1</a></li>
+                            <li><a href="#">Desplegable 1</a></li>
                             <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
                                     <li><a href="#">Deep Dropdown 1</a></li>
@@ -87,12 +89,12 @@
                                     <li><a href="#">Deep Dropdown 5</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
+                            <li><a href="#">Desplegable 2</a></li>
+                            <li><a href="#">Desplegable 3</a></li>
+                            <li><a href="#">Desplegable 4</a></li>
                         </ul>
                     </li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -416,8 +418,8 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Appointment</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <h2>Citas</h2>
+            <p>llena este formulario Rapido para agendar citas</p>
         </div><!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -969,12 +971,12 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Contact</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <h2>Contacto</h2>
+            <p>Contáctanos para agendar tu cita o resolver cualquier duda. Estamos aquí para ayudarte.</p>
         </div><!-- End Section Title -->
 
         <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.026320326537!2d-74.79059808575224!3d4.313976743909298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f28af7c51edc9%3A0x930b76cf08bce070!2sPuesto%20De%20Salud%20Barrio%20Kennedy!5e0!3m2!1ses!2sco!4v1685200298357!5m2!1ses!2sco" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div><!-- End Google Maps -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -985,24 +987,24 @@
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                         <i class="bi bi-geo-alt flex-shrink-0"></i>
                         <div>
-                            <h3>Location</h3>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <h3>Ubicacion</h3>
+                            <p>Puesto de salud, Girardot, Cundinamarca 535022</p>
                         </div>
                     </div><!-- End Info Item -->
 
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                         <i class="bi bi-telephone flex-shrink-0"></i>
                         <div>
-                            <h3>Call Us</h3>
-                            <p>+1 5589 55488 55</p>
+                            <h3>Llamanos</h3>
+                            <p>+57 310 31197 24</p>
                         </div>
                     </div><!-- End Info Item -->
 
                     <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
                         <i class="bi bi-envelope flex-shrink-0"></i>
                         <div>
-                            <h3>Email Us</h3>
-                            <p>info@example.com</p>
+                            <h3>Email</h3>
+                            <p>acampos5@estudiante.ibero.edu.co</p>
                         </div>
                     </div><!-- End Info Item -->
 
@@ -1013,27 +1015,27 @@
                         <div class="row gy-4">
 
                             <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                                <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required="">
                             </div>
 
                             <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                                <input type="email" class="form-control" name="email" placeholder="Tu Email" required="">
                             </div>
 
                             <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                                <input type="text" class="form-control" name="subject" placeholder="Titulo" required="">
                             </div>
 
                             <div class="col-md-12">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                                <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
                             </div>
 
                             <div class="col-md-12 text-center">
-                                <div class="loading">Loading</div>
+                                <div class="loading">Cargando</div>
                                 <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                <div class="sent-message">Tu mensaje se ha enviado. Gracias!</div>
 
-                                <button type="submit">Send Message</button>
+                                <button type="submit">Enviar Mensaje</button>
                             </div>
 
                         </div>
@@ -1054,13 +1056,13 @@
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
                 <a href="index.html" class="logo d-flex align-items-center">
-                    <span class="sitename">Medilab</span>
+                    <span class="sitename">Sistema De Control Medico</span>
                 </a>
                 <div class="footer-contact pt-3">
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
-                    <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                    <p>Puesto de salud, Girardot</p>
+                    <p>Cundinamarca 535022</p>
+                    <p class="mt-3"><strong>Telefono:</strong> <span>+57 310 31197 24</span></p>
+                    <p><strong>Email:</strong> <span>acampos5@estudiante.ibero.edu.co</span></p>
                 </div>
                 <div class="social-links d-flex mt-4">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -1117,16 +1119,7 @@
         </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Medilab</strong> <span>All Rights Reserved</span></p>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-    </div>
+
 
 </footer>
 
@@ -1146,6 +1139,42 @@
 
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
+
+<script>
+$(document).ready(function(){
+  $('form.php-email-form').on('submit', function(e){
+    e.preventDefault(); // Evita envío normal del formulario
+
+    // Mostrar mensaje de carga
+    $('.loading').show();
+    $('.error-message').hide();
+    $('.sent-message').hide();
+
+    var formData = $(this).serialize();
+
+    $.ajax({
+      url: $(this).attr('action'),  // forms/appointment.php
+      type: 'POST',
+      data: formData,
+      success: function(response){
+        $('.loading').hide();
+
+        // Aquí puedes validar response, asumiendo que PHP devuelve JSON o texto
+        // Por simplicidad, asumimos que cualquier respuesta es éxito
+        $('.sent-message').text('Tu solicitud de cita ha sido enviada con éxito. ¡Gracias!').show();
+
+        // Opcional: limpiar formulario
+        $('form.php-email-form')[0].reset();
+      },
+      error: function(){
+        $('.loading').hide();
+        $('.error-message').text('Ocurrió un error al enviar el formulario. Inténtalo de nuevo.').show();
+      }
+    });
+  });
+});
+</script>
+
 
 </body>
 
